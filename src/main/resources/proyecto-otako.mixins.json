@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.proyecto_otako.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "VillagerMCAAccessor",
+    "VillagerMCAMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.proyecto_otako.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "FaceLayerMixin",
+    "HairLayerMixin",
+    "SkinLayerMixin",
+    "VillagerMCARendererAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "VillagerMCARendererMixin"
+  ]
+}
